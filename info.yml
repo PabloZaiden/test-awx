@@ -1,6 +1,6 @@
 ---
 
-- name: Print hostname and OS info in debug
+- name: test with actual repo
   connection: ansible.netcommon.network_cli
   gather_facts: false
   hosts: all

@@ -1,6 +1,6 @@
 ---
 
-- name: test from python 4
+- name: test with the team
   connection: ansible.netcommon.network_cli
   gather_facts: false
   hosts: all
